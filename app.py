@@ -7,6 +7,8 @@ from process import preprocessing
 import warnings
 warnings.filterwarnings("ignore")
 
+st.set_page_config(page_title="Stock Prediction", page_icon=":chart_with_upwards_trend:", layout="wide")
+
 "# Prediction of stock prices using various machine learning models"
 
 db = sq.connect('stocks.db')
